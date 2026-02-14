@@ -31,6 +31,10 @@ function App() {
               <a href={app.privacyLink} className="link-privacy">
                 Política de Privacidade
               </a>
+              
+              <a href={app.termosLink} className="link-privacy">
+                Termos de Uso
+              </a>
             </div>
           ))}
         </div>
