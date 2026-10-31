@@ -33,10 +33,7 @@ export const Navbar: React.FC = () => {
             ABOUT
           </a>
 
-          <div className="hidden md:flex items-center gap-2 border-2 border-black bg-white px-3.5 py-1.5 font-mono text-xs font-bold uppercase tracking-wider text-black shadow-[2px_2px_0px_0px_#000]">
-            <span className="h-2.5 w-2.5 rounded-full bg-blue-600 ring-2 ring-blue-600/30 animate-pulse"></span>
-            <span>STUDIO // 2026 ACTIVE</span>
-          </div>
+          
         </div>
       </div>
     </header>

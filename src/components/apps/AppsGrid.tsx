@@ -12,15 +12,12 @@ export const AppsGrid: React.FC<AppsGridProps> = ({ apps }) => {
       {/* Section Header */}
       <div className="mb-10 sm:mb-14 flex flex-col gap-2 border-b-2 border-black pb-4 sm:flex-row sm:items-end sm:justify-between">
         <div>
-          <span className="font-mono text-xs font-bold uppercase tracking-wider text-blue-600">
-            // ARTIFACT CATALOG
-          </span>
           <h2 className="text-3xl font-black tracking-tight text-black sm:text-4xl">
-            APLICAÇÕES & EXPERIMENTOS
+            Apps & Projects
           </h2>
         </div>
         <div className="font-mono text-xs font-bold text-neutral-500">
-          TOTAL PROJETOS: [ {String(apps.length).padStart(2, '0')} ]
+          Total Projects: [ {String(apps.length).padStart(2, '0')} ]
         </div>
       </div>
 
